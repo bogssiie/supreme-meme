@@ -1,0 +1,324 @@
+/* FONT Face */
+@font-face{
+    font-family: futuraBook;
+    src: url('../fonts/futura book font.ttf');
+}
+
+@font-face{
+    font-family: futuraHeavy;
+    src: url('../fonts/futura heavy font.ttf')
+}
+
+/* GLOBAL */
+html{
+    height:100%;
+    background-color: #192436;
+    font-family: futuraBook;
+    font-size: 14px;
+}
+
+body{
+    margin: 0;
+}
+
+.h1-info{
+    color: #314574;
+}
+
+.h1-alternate{
+    color: #fdb614;
+}
+
+.strong{
+    font-weight: 900
+}
+
+/*MAIN NAV */
+.nav{
+    margin: 0 10% 0 10%;
+}
+.main_nav{
+    font-family: futuraHeavy;
+
+}
+.navbar {
+    list-style-type: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: none;
+}
+.navbar li {
+    float: left;
+}
+.navbar .menu{
+    margin: 35px 0.5em 0 .5em;
+    padding: 0 .5em 0 .5em;
+    font-size: 14px;
+}
+.navbar li a {
+display: block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+.navbar li a:hover {
+    color: #fdb614;
+}
+.navbar li .active{
+    color: #fdb614;
+}
+.navbar .trial{
+    background-color: white;
+    border-radius: 5px;
+    -webkit-transition: background-color .5s;
+    transition: background-color .5s;
+}
+.navbar .trial:hover{
+    background-color: #fdb614;
+}
+.navbar .trial a{
+    color: #192436;
+    font-family: futuraHeavy;
+    -webkit-transition: color .5s;
+    transition: color .5s;
+}
+.navbar .trial a:hover{
+    color: white;
+}
+.navbar .contact{
+    background-color: #fdb614;
+    border-radius: 5px;
+    -webkit-transition: background-color.5s;
+    transition: background-color .5s;
+}
+.navbar .contact:hover{
+    background-color: white;
+}
+.navbar .contact a{
+    color: #192436;
+    font-family: futuraHeavy;
+    -webkit-transitio: color .5s;
+    transition: color .5s;
+}
+.navbar .contact a:hover{
+    color: #fdb614;
+}
+
+/* TOP NAV */
+.top_nav{
+    float: right;
+    background-color: none;
+}
+
+/* First Section */
+ .first_section{
+    background-image: url('../img/map-compressed.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    size: 100%;
+    height: 100%;
+    margin: -185px 2em 0 2em;
+}
+
+/* Second Section */
+.second_section{
+    size: 100%;
+    height: 100%;
+    background-color: white;
+}
+
+section .header{
+    margin: 40px 25% 0 25%;
+    text-align: center;
+    color:#314574;
+    font-size: 24px;
+    font-family: futuraHeavy;
+}
+
+section .header h1{
+    padding-top: 10%;
+}
+
+section .paragraph{
+    margin: 0 10% 0 10%;
+    font-size: 18px;
+}
+
+section .paragraph p{
+    margin: 3em 0 0 0;
+}
+
+.row{
+    margin: 0 10% 0 10%;
+}
+
+.row .text_desc{
+    float: left;
+    max-width: 49%;
+    margin-top: 10%;   
+}
+
+.row .text_desc p{
+    font-size: 18px;
+    word-spacing: 0.1em;
+    line-height: 1.5em;
+}
+
+.block img{
+   width: auto;
+   height: 50%;
+   max-height: 400px;
+   margin: auto;
+   float:right;
+   display: block;
+   margin-top: 5%;
+}
+
+/* THIRD SECTION */
+.third_section{
+    size: 100%;
+    height: 100%;
+}
+
+.partners{
+    height:50%;
+    background-color: white;
+}
+
+.partners .header{
+    margin: 0;
+}
+
+.partners .header h1{
+    margin: 0;
+    padding: 0 25% 2em 25%;
+}
+
+.pictures{
+    float:left;
+    margin: 0 10% 0 10%;
+}
+
+.pictures .main_picture img{
+    display: block;
+    margin: 0 auto;
+}
+
+.text_partner{
+    margin: 0 10% 0 10%;
+
+}
+
+.text_partner p{
+    font-size: 18px;
+    word-spacing: 0.1em;
+    line-height: 1.5em;
+}
+
+/* FOOTER */
+.footer{
+    height:50%;
+    background-color: #314574;
+    width: 100%;
+}
+
+.footer .first{
+    width: 100%;
+    height: auto;
+}
+
+.logo{
+    float:left;
+    margin: 0 10% 0 10%;
+}
+
+.logo img{
+    padding: 50px 0 0 0;
+    height: 70px;
+}
+
+.social_media{
+    width: 49%;
+    margin: 0 10% 0 0%;
+    float: right;
+    padding: 50px 0 0 0;
+    text-align: right;
+}
+
+.social_media div{
+    display: inline-block;
+    color: white;
+}
+
+.social_media .fa {
+    padding: 20px;
+    font-size: 15px;
+    width: 15px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+    border: 2px solid white;
+    color: white;
+    -webkit-transitio: color .5s;
+    transition: color .5s;
+    -webkit-transitio: border-color .5s;
+    transition: border-color .5s;
+}
+  
+  .fa:hover {
+    color: #fdb614;
+    border-color:#fdb614
+}
+
+.second{
+    display: inline-block;
+    margin: 0 10% 0 10%;
+    color: white;
+    font-size: 16px;
+    word-spacing: 0.1em;
+    line-height: 1.5em;
+}
+.second div {
+    width: 20%;
+    margin: 0 20px 0 20px;
+    display: inline-block;
+}
+
+.second div p a {
+    text-decoration: none;
+    color: white;
+    -webkit-transitio: color .3s;
+    transition: color .3s;
+    cursor: pointer;
+}
+
+.second div p a:hover{
+    color: #fdb614;
+}
+
+.third {
+    margin: 0 10% 0 10%;
+    padding: 20px;
+    color: white;
+}
+
+.third div{
+    float: left;
+}
+
+.third .messenger{
+    float: right;
+}
+
+.third .messenger img{
+    height: 30px;
+    width: auto;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
